@@ -22,5 +22,12 @@ function changeColor() {
     newParagraph.textContent = "Here is my new paragraph"
     console.log(newParagraph)
     container.appendChild(newParagraph)
-    }
 
+    const studentList = ["John", "Mary", "Shown", "Miler"]//array
+    studentList.forEach(function(name){const li= document.createElement('li')
+      li.textContent= name
+      container.appendChild(li)
+    })
+
+    }
+    
