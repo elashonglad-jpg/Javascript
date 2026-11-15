@@ -67,3 +67,4 @@ let passwordIscorrect=false
 console.log(isEmail&&passwordIscorrect)//all  the condition must be true
 console.log(isEmail||passwordIscorrect)//atleats one condition must be true
 console.log(!isEmail)
+
