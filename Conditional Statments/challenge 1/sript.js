@@ -1,3 +1,4 @@
+//challenge 1
 let bothCount = 0
 for (a = 1; a <= 30; a++) {
     if (a % 3 === 0 && a % 5 === 0) {
@@ -13,10 +14,3 @@ for (a = 1; a <= 30; a++) {
 }
 
 console.log("Chai & Mandazi was shouted " + bothCount + " times.");
-
-
-let goal = 5000;
-let month = 1;
-let saving = 100;
-
-if()
